@@ -1,0 +1,9 @@
+PGM     START   1000
+**      LDA     ALPHA
+**      MUL     BETA
+**      STA     GAMMA
+ALPHA   WORD    2
+BETA    BYTE    C'EOF'
+GAMMA   RESW    1
+**      END
+        
